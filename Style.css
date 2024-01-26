@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.header-ol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    list-style: none;
+
+}
+
+.header-ol img {
+    width: 60px;
+}
+
+.home-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EE8025;
+}
+
+.header-section {
+    background-color: #66757D;
+
+
+}
+
+.header-icon-title {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.cart-search-container {
+    color: white;
+}
+
+.cart-search-container {
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.header-icon-descrip {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 200px 0px;
+
+}
+
+.description-container>p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #EE8025;
+}
+
+.description-container>h1 {
+    
+    color: white;
+}
+
+.btn {
+    color: black;
+    padding: 10px 20px;
+    border: 3px solid #EE8025;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-collection {
+    background-color: #EE8025;
+}
+
+.btn-collection:hover {
+    background-color: transparent;
+
+}
+
+.btn-contact:hover {
+    background-color: #EE8025;
+}
+
+.service-container {
+   
+    background-color: #F5F5F5;
+}
+
+.service-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-container>h1 {
+    font-size: 20px;
+}
+
+.service-img {
+    width: 100px;
+}
+
+.products-img {
+    width: 300px;
+}
+
+.Product-container {
+    
+    text-align: center;
+}
+
+.Product-container>div {
+    margin: 40px;
+}
+
+.Product-container>div>h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+.product-cards>div>div>h4 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.product-cards>div>div>p {
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+}
+
+.product-cards>div {
+
+    padding: 20px;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.our {
+    color: #EE8025;
+}
+
+.product-ro {
+    border-bottom: 3px solid #EE8025;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-description>button {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.card-description>button:hover {
+    color: #EE8025;
+}
+
+.package-container {
+
+    background-color: #F5F5F5;
+}
+
+.package-container>div {
+    flex: 1;
+
+}
+
+.package-container>div>h2 {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.package-container>div>h5 {
+    font-size: 20px;
+    margin: 10px 0px 25px 0px;
+    font-weight: 400;
+}
+
+.package-container>div>h2>span {
+    color: #EE8025;
+}
+
+.package-container>div>img {
+
+    width: 150px;
+    height: 150px;
+}
+
+.discount-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.time-box {
+    border: 3px solid #EE8025;
+    padding: 10px 20px;
+}
+
+.time-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 0px;
+}
+
+.package-container button {
+    margin: 30px 0px;
+}
+
+.package-container button:hover {
+    color: #EE8025;
+
+}
+
+.time-box>h2 {
+    font-size: 30px;
+    color: #EE8025;
+
+}
+
+.about-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.about-container>div {
+    flex: 1;
+}
+
+.about-description>p {
+    margin: 20px 100px 20px 0px;
+}
+
+.about-description>h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.about-description>h2>span {
+    color: #EE8025
+}
+
+.about-description>button:hover {
+    color: #EE8025;
+
+}
+
+.play-button:hover {
+
+    background-color: rgb(34, 33, 33);
+
+}
+
+.play-button:hover .fa-solid {
+    color: #EE8025
+}
+
+.video {
+
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 0px 20px 0px 20px;
+}
+
+.play-button {
+
+    padding: 50PX;
+    background-color: #EE8025;
+    border-radius: 50%;
+}
+
+.play-button>i {
+    font-size: 30px;
+}
+
+.advertisement-container {
+    background-color: #F5F5F5;
+}
+
+
+
+.advertisement-container>h1>span {
+    color: #EE8025;
+}
+
+.advertisement-container>div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+
+}
+
+.advertisement-container>div span {
+    font-size: 50px;
+    color: #EE8025;
+    font-weight: 900;
+}
+
+.advertisement-container button:hover {
+    color: #EE8025;
+}
+
+.card-description>div {
+    display: flex;
+
+}
+
+.news {
+    text-align: start;
+    padding: 0px 20px 20px 20px;
+}
+
+.news>div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.news>h2 {
+    font-weight: 900;
+}
+
+.admin {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.news-cards {
+    gap: 50px;
+}
+
+.news-img {
+    padding: 0;
+}
+
+.news-cards>div {
+    padding: 0;
+}
+
+.Product-container>button:hover {
+    color: #EE8025;
+}
+
+.company-container {
+    background-color: #F5F5F5;
+}
+.footer-section{
+    background-color: #051922;
+    color: white;
+
+}
+footer>div>h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+footer>div>div {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+
+}
+
+.footer-hr {
+    width: 15%;
+    border: 3px solid #EE8025;
+    margin: 30px 0px;
+}
+
+.email-subscribe>input {
+    font-size: 20px;
+    padding: 15px 10px;
+    background-color: #012738;
+    color: gray;
+    border-radius: 5px;
+    border: none
+}
+
+.email-subscribe>button {
+    font-size: 20px;
+    padding: 15px 15px;
+    color: #EE8025;
+    background-color: #012738;
+    border: none;
+    border-radius: 5px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.card-shadow{
+    box-shadow: 10px 10px 10px lightgray;
+}
